@@ -4,6 +4,9 @@ Console.WriteLine("Game start");
 
 
 // Generate a random integer between x and y which is the target number
+var randomInstance = new Random();
+var targetNumber = randomInstance.Next(1, 101);
+Console.WriteLine(targetNumber);
 // Ask user to input a number
 // Compare user input and target number
 // Tell user if the input number is higher or lower than target number
