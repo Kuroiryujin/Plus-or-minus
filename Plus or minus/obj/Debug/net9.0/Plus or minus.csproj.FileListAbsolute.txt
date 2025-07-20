@@ -1,0 +1,14 @@
+C:\Users\kuroi\RiderProjects\Plus-or-minus\Plus or minus\bin\Debug\net9.0\Plus or minus.exe
+C:\Users\kuroi\RiderProjects\Plus-or-minus\Plus or minus\bin\Debug\net9.0\Plus or minus.deps.json
+C:\Users\kuroi\RiderProjects\Plus-or-minus\Plus or minus\bin\Debug\net9.0\Plus or minus.runtimeconfig.json
+C:\Users\kuroi\RiderProjects\Plus-or-minus\Plus or minus\bin\Debug\net9.0\Plus or minus.dll
+C:\Users\kuroi\RiderProjects\Plus-or-minus\Plus or minus\bin\Debug\net9.0\Plus or minus.pdb
+C:\Users\kuroi\RiderProjects\Plus-or-minus\Plus or minus\obj\Debug\net9.0\Plus or minus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kuroi\RiderProjects\Plus-or-minus\Plus or minus\obj\Debug\net9.0\Plus or minus.AssemblyInfoInputs.cache
+C:\Users\kuroi\RiderProjects\Plus-or-minus\Plus or minus\obj\Debug\net9.0\Plus or minus.AssemblyInfo.cs
+C:\Users\kuroi\RiderProjects\Plus-or-minus\Plus or minus\obj\Debug\net9.0\Plus or minus.csproj.CoreCompileInputs.cache
+C:\Users\kuroi\RiderProjects\Plus-or-minus\Plus or minus\obj\Debug\net9.0\Plus or minus.dll
+C:\Users\kuroi\RiderProjects\Plus-or-minus\Plus or minus\obj\Debug\net9.0\refint\Plus or minus.dll
+C:\Users\kuroi\RiderProjects\Plus-or-minus\Plus or minus\obj\Debug\net9.0\Plus or minus.pdb
+C:\Users\kuroi\RiderProjects\Plus-or-minus\Plus or minus\obj\Debug\net9.0\Plus or minus.genruntimeconfig.cache
+C:\Users\kuroi\RiderProjects\Plus-or-minus\Plus or minus\obj\Debug\net9.0\ref\Plus or minus.dll
