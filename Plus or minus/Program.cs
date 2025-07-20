@@ -11,7 +11,17 @@ Console.Write("Input a number: ");
 var userInput = Console.ReadLine();
 // Compare user input and target number
 // Tell user if the input number is higher or lower than target number
+if (targetNumber > int.Parse(userInput))
+{
+    Console.WriteLine("Too high");
+}
+else if (targetNumber < int.Parse(userInput))
+{
+    Console.WriteLine("Too low");
+}
+else
+{
+    Console.WriteLine("You win!");
+}
 // Ask user to input a number again, repeat until numbers match
 // Winning message when the numbers are equal
- 
- 
