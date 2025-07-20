@@ -12,3 +12,4 @@ C:\Users\kuroi\RiderProjects\Plus-or-minus\Plus or minus\obj\Debug\net9.0\refint
 C:\Users\kuroi\RiderProjects\Plus-or-minus\Plus or minus\obj\Debug\net9.0\Plus or minus.pdb
 C:\Users\kuroi\RiderProjects\Plus-or-minus\Plus or minus\obj\Debug\net9.0\Plus or minus.genruntimeconfig.cache
 C:\Users\kuroi\RiderProjects\Plus-or-minus\Plus or minus\obj\Debug\net9.0\ref\Plus or minus.dll
+C:\Users\kuroi\RiderProjects\Plus-or-minus\Plus or minus\obj\Debug\net9.0\Plus or minus.sourcelink.json
