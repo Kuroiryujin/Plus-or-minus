@@ -1,10 +1,11 @@
-﻿Console.WriteLine("Game start");
+﻿using Plus_or_minus.Services;
+
+Console.WriteLine("Game start");
 
 
-// Generate a random integer between x and y which is the target number
-var randomInstance = new Random();
-var targetNumber = randomInstance.Next(1, 101);
-
+// Call the target number generator method
+var generatorService = new TargetNumberGeneratorService();
+var targetNumber = generatorService.TargetNumberGenerator();
 // Ask user to input a number again, repeat until numbers match
 var isContinue = true;
 
@@ -14,10 +15,8 @@ do
     Console.Write("Input a number: ");
     var userInput = Console.ReadLine();
 
-    // Check if the user input is parsable to int
-    var isParsable = int.TryParse(userInput, out var userInputNumber);
-
-    if (isParsable)
+    // Check if the user input is parsable to int, if not, tell user to input a number again
+    if (int.TryParse(userInput, out var userInputNumber))
     {
         // Compare user input and target number
         // Tell user if the input number is higher or lower than target number
