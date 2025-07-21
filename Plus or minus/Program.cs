@@ -15,23 +15,33 @@ var isContinue = true;
 do
 {
     Console.Write("Input a number: ");
-    var userInput = int.Parse(Console.ReadLine());
+    var userInput = Console.ReadLine();
 
-    // Compare user input and target number
-    // Tell user if the input number is higher or lower than target number
-    // Winning message when the numbers are equal
+    // Check if the user input is parsable to int
+    var isParsable = int.TryParse(userInput, out var userInputNumber);
 
-    if (targetNumber > userInput)
+    if (isParsable)
     {
-        Console.WriteLine("Too low");
-    }
-    else if (targetNumber < userInput)
-    {
-        Console.WriteLine("Too high");
+        // Compare user input and target number
+        // Tell user if the input number is higher or lower than target number
+        // Winning message when the numbers are equal
+
+        if (targetNumber > userInputNumber)
+        {
+            Console.WriteLine("Too low");
+        }
+        else if (targetNumber < userInputNumber)
+        {
+            Console.WriteLine("Too high");
+        }
+        else
+        {
+            Console.WriteLine("You win!");
+            isContinue = false;
+        }
     }
     else
     {
-        Console.WriteLine("You win!");
-        isContinue = false;
+        Console.WriteLine("Invalid input, please write a number");
     }
 } while (isContinue);
