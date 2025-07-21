@@ -1,19 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-Console.WriteLine("Game start");
+﻿Console.WriteLine("Game start");
 
 
 // Generate a random integer between x and y which is the target number
-
 var randomInstance = new Random();
 var targetNumber = randomInstance.Next(1, 101);
 
-// Ask user to input a number
 // Ask user to input a number again, repeat until numbers match
 var isContinue = true;
 
 do
 {
+    // Ask user to input a number
     Console.Write("Input a number: ");
     var userInput = Console.ReadLine();
 
@@ -40,6 +37,7 @@ do
             isContinue = false;
         }
     }
+
     else
     {
         Console.WriteLine("Invalid input, please write a number");
